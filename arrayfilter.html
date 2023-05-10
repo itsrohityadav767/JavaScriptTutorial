@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Filter</title>
+    <script>
+        var ages=[10,20,30,40];
+        document.write(ages+"<br><br>");
+
+
+        var b=ages.filter(checkadult);
+        document.write(b+"<br><br>");
+
+        function checkadult(ages){
+            return ages>=18;
+        }
+    </script>
+</head>
+<body>
+  
+</body>
+</html>
